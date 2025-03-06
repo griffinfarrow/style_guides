@@ -1,0 +1,16 @@
+figure.dpi : 150
+savefig.dpi : 150
+
+legend.fontsize : 20
+legend.handlelength : 1.5
+legend.labelspacing : 0.25
+legend.columnspacing :     1.5 
+legend.borderaxespad : 0.2 
+legend.frameon : False 
+
+axes.labelsize : 12
+lines.linewidth : 2.0 
+xtick.labelsize : 12
+ytick.labelsize : 12
+lines.markersize : 3
+
