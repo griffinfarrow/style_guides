@@ -35,7 +35,7 @@ axes.linewidth      : 1.0    # edge linewidth
 axes.grid           : True        
 axes.grid.which     : major
 axes.grid.axis      : both
-axes.titlesize      : large   # fontsize of the axes title
+axes.titlesize      : x-large   # fontsize of the axes title
 #axes.titley         : 0.98    # at the top, no autopositioning.
 axes.titlepad       : 6.0     # pad between axes and title in points
 axes.titleweight    : normal  # font weight for axes title
@@ -43,6 +43,9 @@ axes.labelsize      : 16      # fontsize of the x any y labels
 axes.labelpad       : 5.0     # space between label and axis
 axes.labelweight    : normal  # weight of the x and y labels
 axes.labelcolor     : black
+
+legend.fontsize : 14
+
 axes.axisbelow      : False   # whether axis gridlines and ticks are below
                               # the axes elements (lines, text, etc)
                               
@@ -98,7 +101,7 @@ xtick.top            : True     # draw ticks on the top side
 xtick.bottom         : True     # draw ticks on the bottom side
 xtick.major.size     : 6.0      # major tick size in points
 xtick.minor.size     : 2.0      # minor tick size in points
-xtick.minor.visible  : True
+xtick.minor.visible  : False
 xtick.major.width    : 0.8      # major tick width in points
 xtick.minor.width    : 0.6      # minor tick width in points
 xtick.major.pad      : 3.5      # distance to major tick label in points
@@ -108,15 +111,15 @@ xtick.labelsize      : 16       # fontsize of the tick labels
 xtick.direction      : in       # direction: in, out, or inout
 xtick.major.top      : True     # draw x axis top major ticks
 xtick.major.bottom   : True     # draw x axis bottom major ticks
-xtick.minor.top      : True     # draw x axis top minor ticks
-xtick.minor.bottom   : True     # draw x axis bottom minor ticks
+xtick.minor.top      : False     # draw x axis top minor ticks
+xtick.minor.bottom   : False     # draw x axis bottom minor ticks
 xtick.alignment : center
 
 ytick.left           : True     # draw ticks on the left side
 ytick.right          : True     # draw ticks on the right side
 ytick.major.size     : 6.0      # major tick size in points
 ytick.minor.size     : 3.0      # minor tick size in points
-ytick.minor.visible  : True
+ytick.minor.visible  : False
 ytick.major.width    : 0.8      # major tick width in points
 ytick.minor.width    : 0.6      # minor tick width in points
 ytick.major.pad      : 3.5      # distance to major tick label in points
@@ -126,8 +129,8 @@ ytick.labelsize      : 16       # fontsize of the tick labels
 ytick.direction      : in       # direction: in, out, or inout
 ytick.major.left     : True     # draw y axis left major ticks
 ytick.major.right    : True     # draw y axis right major ticks
-ytick.minor.left     : True     # draw y axis left minor ticks
-ytick.minor.right    : True     # draw y axis right minor ticks
+ytick.minor.left     : False     # draw y axis left minor ticks
+ytick.minor.right    : False     # draw y axis right minor ticks
 ytick.alignment      : center_baseline
 
 
